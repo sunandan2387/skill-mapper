@@ -1,0 +1,75 @@
+.colortheme {
+    color: rgba(42, 172, 234, 1);
+}
+
+.bgtheme {
+    background-color: rgba(42, 172, 234, 1);
+}
+
+.bgcolor {
+    background-color: rgba(245, 245, 245, 1);
+}
+
+.boxcolor {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.outercard {
+    overflow: hidden;
+    height: 450px;
+    width: 90vw;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+}
+
+.bgcircle {
+    overflow: hidden;
+    background-color: rgb(223, 243, 252);
+    height: 8vh;
+    width: 8vh;
+    border-radius: 50%;
+    font-size: 1.8em;
+}
+
+.innercard {
+    overflow: hidden;
+    height: 450px;
+    width: 550px;
+    border: none;
+}
+
+@media screen and (max-width: 520px) {
+    .innercard {
+        width: 90%;
+    }
+    .outercard{
+        width: 100%;
+    }
+  }
+
+.btn {
+    overflow: hidden;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.btn:hover{
+    color:white;
+}
+.filein{
+    width: 85%;
+}
+
+.textarea {
+    overflow: hidden;
+    border: 1px solid rgba(42, 172, 234, 1);
+    width: 100%;
+    resize: none;
+    font-size: 0.9em;
+}
+
+h5 {
+    font-weight: 600;
+}

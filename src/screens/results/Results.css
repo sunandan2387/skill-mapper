@@ -1,0 +1,31 @@
+.colortheme {
+    color: rgba(42, 172, 234, 1);
+}
+.smalltext{
+    font-size: 0.8em;
+}
+.wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container-fluid{
+    overflow-x: auto;
+}
+
+.bg-details{
+    background-color: rgb(245,248,250);
+}
+.table{
+    background-color: white;
+    border: 1px solid lightgrey;
+}
+.ontop{
+    z-index: 2;
+    color: var(--variable);
+    transition: 3s ease;
+}
+:root {
+    --variable: rgb(13,202,240);
+
+  }
