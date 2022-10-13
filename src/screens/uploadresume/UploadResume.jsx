@@ -53,7 +53,7 @@ const UploadResume = () => {
                                       onChange={handleChange}/>
                                 <p className='colortheme mt-3 mb-2'>Add search keywords</p>
                                 <textarea className="form-control textarea" id="exampleFormControlTextarea1" placeholder='Add search keywords' rows="4" value={jdtext}  required onChange={e => setJdtext(e.target.value)} name='jdtext'></textarea>
-                                <input type='submit' className="btn py-2 my-2 bgtheme px-5" onClick={handleUpload} name="home"/>
+                                <input type="submit" className="btn py-2 my-2 bgtheme px-5" onClick={handleUpload} name="home"/>
                                 </form>
                             </div>                           
                         </div>

@@ -66,7 +66,7 @@ const Results = () => {
       root.style.setProperty('--variable', 'rgb(220,53,69)');
     }
 
-  }, [])
+  }, [p6])
 
 
 
