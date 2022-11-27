@@ -49,7 +49,7 @@ const UploadResume = () => {
                                 <h5>Upload your resume to get started</h5>
                                 <p className='colortheme'>Don't have a resume?</p>
                                 <form className='d-flex align-items-center justify-content-center flex-column'>
-                                <input required style={{border:'2px solid lightgrey'}} multiple type='file' className="btn py-3 form-control text-secondary text-center px-5" placeholder='Upload your resume' name='file' 
+                                <input required style={{border:'2px solid lightgrey'}} type='file' className="btn py-3 form-control text-secondary text-center px-5" placeholder='Upload your resume' name='file' 
                                       onChange={handleChange}/>
                                 <p className='colortheme mt-3 mb-2'>Add search keywords</p>
                                 <textarea className="form-control textarea" id="exampleFormControlTextarea1" placeholder='Add search keywords' rows="4" value={jdtext}  required onChange={e => setJdtext(e.target.value)} name='jdtext'></textarea>
