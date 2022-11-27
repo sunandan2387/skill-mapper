@@ -69,10 +69,10 @@ const Results = () => {
 
 
   return (
-    <div style={{ height: '100vh', width: '100vw' }} className='container-fluid p-0 m-0 bg-details'>
+    <div className='container-fluid p-0 m-0 bg-details'>
 
       <div className='row m-0 p-0 bg-details'>
-        <div style={{ backgroundColor: 'white', height: '100vh'}} className="col-2 px-1 d-flex mx-auto size flex-column justify-content-center">
+        <div style={{ backgroundColor: 'white', height: '100vh'}} className="col px-1 d-flex mx-auto flex-column justify-content-center">
           <h2 className='mx-auto mb-5 text-dark'>Match Rate</h2>
           <div style={{position:'relative'}} className="circle-wrap d-flex align-items-center justify-content-center">
             <CircleProgress  progress={p6} strokeColor={variant6} />
@@ -118,7 +118,7 @@ const Results = () => {
 
 
         </div>
-        <div className="col-10 px-5">
+        <div style={{minWidth:'522px'}} className="col-10 px-5">
           <div className="row py-3">
             <div className="col">
               <h3>Hard skills</h3>
